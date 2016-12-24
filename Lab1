@@ -52,7 +52,7 @@ global.api.encrypt = function(array) {
   }
   return ans;
 }
-console.log('\nШифрование%]:\n');
+console.log('\nШифрование:\n');
 let encrypted = global.api.encrypt(arr);
 console.log(JSON.stringify(encrypted) + '\n');
 console.log('\n Дешифрование:\n');
